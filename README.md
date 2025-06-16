@@ -12,6 +12,7 @@ Read historical stock data from CSV (sourced from Kaggle).
 Preprocessing steps include:
 * Normalization using MinMaxScaler.
 * Sequence generation for time-series modeling.
+  
 Builds a Stacked LSTM network with multiple hidden layers to capture temporal dependencies.
 Predicts and visualizes real vs predicted stock prices.
 Evaluates model using MSE.
